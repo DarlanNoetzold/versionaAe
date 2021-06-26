@@ -149,7 +149,7 @@ def repo_find(path=".", required=True):
     if os.path.isdir(os.path.join(path, ".git")):
         return GitRepository(path)
 
-    # If we haven't returned, recurse in parent, if w
+    # If we haven't returned, recurse in parent
     parent = os.path.realpath(os.path.join(path, ".."))
 
     if parent == path:
