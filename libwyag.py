@@ -729,4 +729,7 @@ class GitIndexEntry(object):
     flag_name_length = None
     """Length of the name if < 0xFFF (yes, three Fs), -1 otherwise"""
 
+    
     name = None
+
+
