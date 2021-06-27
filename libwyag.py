@@ -149,7 +149,7 @@ def repo_find(path=".", required=True):
     if os.path.isdir(os.path.join(path, ".git")):
         return GitRepository(path)
 
-    # If we haven't returned, recurse in parent
+    # If we haven't returned, recurse in parent, if w
     parent = os.path.realpath(os.path.join(path, ".."))
 
     if parent == path:
@@ -682,7 +682,7 @@ argsp = argsubparsers.add_parser(
     "rev-parse",
     help="Parse revision (or other objects )identifiers")
 
-argsp.add_argument("--versionaAe.py-type",
+argsp.add_argument("--wyag-type",
                    metavar="type",
                    dest="type",
                    choices=["blob", "commit", "tag", "tree"],
@@ -729,7 +729,4 @@ class GitIndexEntry(object):
     flag_name_length = None
     """Length of the name if < 0xFFF (yes, three Fs), -1 otherwise"""
 
-    
     name = None
-
-
