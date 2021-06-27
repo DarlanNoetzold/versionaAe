@@ -1,3 +1,3 @@
-import libwyag
-libwyag.main()
+import libversionaAe
+libversionaAe.main()
 
