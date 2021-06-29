@@ -152,6 +152,7 @@ def repo_find(path=".", required=True):
     # If we haven't returned, recurse in parent, if w
     parent = os.path.realpath(os.path.join(path, ".."))
 
+
     if parent == path:
         # Bottom case
         # os.path.join("/", "..") == "/":
