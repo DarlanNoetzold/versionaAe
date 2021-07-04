@@ -27,5 +27,7 @@
 * show-ref ()
 * tag (source)
 
+<br>
 
+### Comando inicial e opções:
 ![image](https://user-images.githubusercontent.com/41628589/124358774-31465f80-dbf8-11eb-812f-5041d19445c6.png)
